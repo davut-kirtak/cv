@@ -129,22 +129,22 @@
     </section>
   </main>
 
-  <!-- Contact -->
-  <section class="contact-section" id="contact">
-    <h2 class="section-title">İletişim</h2>
-    <div class="contact-wrapper">
-      <form class="contact-form" onsubmit="event.preventDefault();alert('Mesajınız iletildi!');">
-        <input type="text" placeholder="Adınız" required />
-        <input type="email" placeholder="E‑posta" required />
-        <textarea rows="4" placeholder="Mesajınız" required></textarea>
-        <button class="btn-primary" type="submit">Gönder</button>
-      </form>
-      <div class="social">
-        <p>E‑posta: <a href="mailto:kirtakdavut3@gmail.com">kirtakdavut3@gmail.com</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/davut-kirtak-7a44a7206/" target="_blank">davut‑kirtak</a></p>
-      </div>
+<!-- Contact -->
+<section class="contact-section" id="contact">
+  <h2 class="section-title">İletişim</h2>
+  <div class="contact-wrapper">
+    <form class="contact-form" action="https://formspree.io/f/xrbpelwp" method="POST">
+      <input type="text" name="name" placeholder="Adınız" required />
+      <input type="email" name="email" placeholder="E-posta" required />
+      <textarea name="message" rows="4" placeholder="Mesajınız" required></textarea>
+      <button class="btn-primary" type="submit">Gönder</button>
+    </form>
+    <div class="social">
+      <p>E-posta: <a href="mailto:kirtakdavut3@gmail.com">kirtakdavut3@gmail.com</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/davut-kirtak-7a44a7206/" target="_blank">davut-kirtak</a></p>
     </div>
-  </section>
+  </div>
+</section>
 
   <footer>
     <small>© 2025 Davut Kırtak. Tüm hakları saklıdır.</small>
