@@ -1,0 +1,154 @@
+<!-- =====================
+     Modern Animated CV - index.html (v3)
+     ➜  Save as index.html. Place styles.css alongside.
+===================== -->
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Davut Kırtak · Junior Full‑Stack Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <div class="nav-container">
+      <h3 class="logo">DK</h3>
+      <ul class="nav-links">
+        <li><a href="#about">Hakkımda</a></li>
+        <li><a href="#skills">Beceriler</a></li>
+        <li><a href="#experience">Deneyim</a></li>
+        <li><a href="#projects">Projeler</a></li>
+        <li><a href="#contact">İletişim</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero" id="about">
+    <div class="hero-content">
+      <h1>Davut Kırtak</h1>
+      <p class="tagline">Junior Full‑Stack Developer</p>
+      <p class="hero-desc">React & Node.js kullanarak performanslı web uygulamaları geliştiriyorum. Temiz kod, mobil‑öncelikli tasarım ve ölçeklenebilir mimarilere tutkuyla bağlıyım.</p>
+      <a href="#contact" class="btn-primary">Benimle İletişime Geç</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- Skills -->
+    <section class="section" id="skills">
+      <h2 class="section-title">Teknik Beceriler</h2>
+      <div class="skills-grid">
+        <div class="skill-card"><span>JavaScript / TypeScript</span></div>
+        <div class="skill-card"><span>React · Next.js</span></div>
+        <div class="skill-card"><span>Node.js · Express</span></div>
+        <div class="skill-card"><span>HTML5 & CSS3 / Sass</span></div>
+        <div class="skill-card"><span>Flutter · Dart</span></div>
+        <div class="skill-card"><span>SQL · MongoDB</span></div>
+        <div class="skill-card"><span>Git · Docker · CI/CD</span></div>
+        <div class="skill-card"><span>AWS · Firebase</span></div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="section" id="experience">
+      <h2 class="section-title">Profesyonel Deneyim</h2>
+      <div class="timeline">
+
+        <!-- Item 2 -->
+        <div class="timeline-item">
+          <div class="timeline-date">Aug 2024 — Sep 2024</div>
+          <div class="timeline-item-content">
+            <h3>Belsoft Bilişim Sistemleri · Stajyer</h3>
+            <ul>
+              <li>React ile müşteri portalı komponentlerini kodladım, yeniden kullanılabilir UI geliştirdim.</li>
+              <li>Node.js/Express tabanlı RESTful API'ler tasarlayıp Swagger ile dokümante ettim.</li>
+              <li>SQL sorgularını optimize ederek rapor sürelerini %30 kısalttım.</li>
+            </ul>
+          </div>
+        </div>
+
+         <!-- Item 1 -->
+        <div class="timeline-item">
+          <div class="timeline-date">Sep 2024 — Jul 2025</div>
+          <div class="timeline-item-content">
+            <h3>Freelance · Full‑Stack Developer</h3>
+            <ul>
+              <li>React & Express kullanarak 3 orta ölçekli e‑ticaret projesi teslim ettim.</li>
+              <li>Stripe + Firebase Auth entegrasyonlarıyla ödeme ve kimlik doğrulama akışlarını uyguladım.</li>
+              <li>AWS EC2 + Docker’da CI/CD pipeline oluşturarak haftalık deployment sürelerini %40 azalttım.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section" id="projects">
+      <h2 class="section-title">Öne Çıkan Projeler</h2>
+      <div class="project-grid">
+        <a class="project-card" href="https://github.com/davut-kirtak/otomasyon" target="_blank">
+          <h3>Restoran Otomasyonu</h3>
+          <p>C#, Entity Framework, MSSQL kullanarak masa, sipariş ve stok yönetimi.</p>
+        </a>
+        <a class="project-card" href="https://github.com/davut-kirtak/Learning-Gate" target="_blank">
+          <h3>Learning Gate</h3>
+          <p>PHP ve JS ile çevrim içi ders platformu.</p>
+        </a>
+        <a class="project-card" href="https://github.com/davut-kirtak/spotify_klon" target="_blank">
+          <h3>Spotify Klonu</h3>
+          <p>Flutter + Firebase Auth & Deezer API ile mobil müzik uygulaması.</p>
+        </a>
+        <a class="project-card" href="https://github.com/davut-kirtak/slideshare_downloader" target="_blank">
+          <h3>Slideshare Downloader</h3>
+          <p>Python scripti ile Slideshare sunumlarını PDF’e dönüştürüp çevrimdışı kaydetne.</p>
+        </a>
+      </div>
+    </section>
+
+    <!-- Education & Certificates -->
+    <section class="section" id="education">
+      <h2 class="section-title">Eğitim & Sertifikalar</h2>
+      <div class="edu-list">
+        <div>
+          <h3>Bandırma 17 Eylül Üniversitesi</h3>
+          <p>Bilgisayar Mühendisliği (İngilizce) · 2020‑2025</p>
+        </div>
+        <ul class="cert-list">
+          <li>JavaScript Bootcamp (Udemy, 2023)</li>
+          <li>React & Redux (Coursera, 2024)</li>
+          <li>Node.js Bootcamp (Udemy, 2024)</li>
+          <li>Python Bootcamp (Udemy, 2021)</li>
+
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <!-- Contact -->
+  <section class="contact-section" id="contact">
+    <h2 class="section-title">İletişim</h2>
+    <div class="contact-wrapper">
+      <form class="contact-form" onsubmit="event.preventDefault();alert('Mesajınız iletildi!');">
+        <input type="text" placeholder="Adınız" required />
+        <input type="email" placeholder="E‑posta" required />
+        <textarea rows="4" placeholder="Mesajınız" required></textarea>
+        <button class="btn-primary" type="submit">Gönder</button>
+      </form>
+      <div class="social">
+        <p>E‑posta: <a href="mailto:kirtakdavut3@gmail.com">kirtakdavut3@gmail.com</a></p>
+        <p>Telefon: <a href="tel:+905066088591">+90 506 608 85 91</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/davut-kirtak-7a44a7206/" target="_blank">davut‑kirtak</a></p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <small>© 2025 Davut Kırtak. Tüm hakları saklıdır.</small>
+  </footer>
+</body>
+</html>
